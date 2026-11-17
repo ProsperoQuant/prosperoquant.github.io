@@ -111,10 +111,12 @@ h3{font-size:42px}
 .contact-section h2 em{font-weight:400;color:#668259}
 .contact-copy{padding-top:3px}
 .contact-copy>p{font-size:12px;line-height:2;max-width:455px;color:#687061}
-.contact-email{display:flex;justify-content:space-between;align-items:center;font-family:var(--serif);font-size:27px;max-width:455px;border-bottom:1px solid #bac3ac;padding-block:20px 10px;letter-spacing:-.015em}
+.contact-email{display:flex;justify-content:space-between;align-items:center;width:100%;font-family:var(--serif);font-size:27px;max-width:455px;background:transparent;color:inherit;border:0;border-bottom:1px solid #bac3ac;padding:20px 0 10px;letter-spacing:-.015em;text-align:left;cursor:pointer}
 .contact-email>span{font-family:var(--sans);font-size:23px}
 .contact-email:hover{color:#517242}
-.email-caption{display:block;font-size:10px;line-height:1.5;color:#737b6b;margin-top:9px}
+.inline-contact{display:inline;padding:0;border:0;background:transparent;color:#355f3e;font:inherit;text-align:left;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.inline-contact:hover{color:#183c20}
+.contact-fallback{width:min(870px,calc(100% - 40px));margin:25px auto;font-size:13px}
 .social-links{display:flex;gap:25px;margin-top:25px;font-size:10px;font-weight:600}
 .social-links a>span{color:#7b8970;margin-left:6px}
 .social-links a:hover{text-decoration:underline;text-underline-offset:5px}
