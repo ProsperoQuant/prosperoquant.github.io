@@ -7,14 +7,12 @@
   const closeMenu = (returnFocus = false) => {
     toggle.setAttribute('aria-expanded', 'false');
     nav.classList.remove('is-open');
-    toggle.querySelector('span').textContent = '＋';
     if (returnFocus) toggle.focus();
   };
   toggle.addEventListener('click', () => {
     const open = toggle.getAttribute('aria-expanded') !== 'true';
     toggle.setAttribute('aria-expanded', String(open));
     nav.classList.toggle('is-open', open);
-    toggle.querySelector('span').textContent = open ? '−' : '＋';
   });
   nav.addEventListener('click', event => {
     if (event.target.closest('a')) closeMenu();
