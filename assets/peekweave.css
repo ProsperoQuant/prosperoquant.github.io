@@ -1,7 +1,6 @@
 .peekweave-card-art {
   display: block;
   width: 100%;
-  height: clamp(225px, 34vw, 320px);
   object-fit: cover;
   object-position: 50% 48%;
   background: #252032;
