@@ -1,0 +1,16 @@
+.peekweave-card-art {
+  display: block;
+  width: 100%;
+  height: clamp(225px, 34vw, 320px);
+  object-fit: cover;
+  object-position: 50% 48%;
+  background: #252032;
+}
+.peekweave-project .project-tagline { color: #6e4a70; }
+.peekweave-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 24px 0 32px;
+}
